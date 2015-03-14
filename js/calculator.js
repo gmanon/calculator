@@ -1,10 +1,7 @@
-window.onerror = function(msg, url, line) {
 
-	if (onerror.num++ < onerror.max) {
-		alert("ERROR: " + msg + "\n" + url + ":" + line);
-		return true;
-	}
-}
+/*  Main function to make numbers appear on the output screen 
+    @mytext is the holder for every click on the calculatorl
+*/
 
 function changeText(mytext){
 	var result = calculated.result;
@@ -25,6 +22,10 @@ function changeText(mytext){
 
 }	
 
+/*  This function catches the operators using a singer numerator.  
+    For example squared root 
+*/
+
 function otherOperations(mytext){
 
 	var result = calculated.result;
@@ -42,6 +43,8 @@ function otherOperations(mytext){
 		return calculated.result.value;
 }
   
+  /*  This last one holds the extra bottons that are not calculating anything */
+  
   function showHelp(mytext){
   		var aids = calculated.aids;
   		
@@ -54,7 +57,7 @@ function otherOperations(mytext){
   	
   		}else if(mytext == "time"){
   			
-					var d = new Date();
+			var d = new Date();
 					
   			calculated.result.value = d;
 
