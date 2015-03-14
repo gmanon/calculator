@@ -1,0 +1,82 @@
+#calculator-frame	{ 
+				padding:10px;width:270px;
+				height:360px;background-color:#99c;
+					  -webkit-border-radius:12px; 
+					  -ms-border-radius:12px;
+					  -mox-border-radius:12px;
+					  -o-border-radius:12px;
+					  border-radius:12px;
+					  border:1px solid #069;
+			}
+
+a.numberse		{ 
+				height:40px;width:40px;font-size:24px;
+				line-height:50px;
+				padding:6px 14px;margin:6px 3px;text-align:center;
+				background-color:#ccf;border:1px solid #444;
+				box-shadow:#999 8px 3px; -webkit-box-shadow:#999 8px 3px; 
+						-webkit-border-radius:12px; 
+					  -ms-border-radius:12px;
+					  -mox-border-radius:12px;
+					  -o-border-radius:12px;
+					  border-radius:12px;
+					  border:1px solid #069;
+					  font-weight:bold;
+					  text-decoration:none;
+			}
+input.numberse, input.operation, 
+input.punctuation, 
+input.sign, input.aids		{ 
+				height:40px;width:40px;font-size:24px;
+				padding:4px 2px;margin:6px 3px;text-align:center;
+				background-color:#eff;border:1px solid #444;
+				box-shadow:#999 8px 3px; -webkit-box-shadow:#999 8px 3px; 
+						-webkit-border-radius:12px; 
+					  -ms-border-radius:12px;
+					  -mox-border-radius:12px;
+					  -o-border-radius:12px;
+					  border-radius:12px;
+					  border:1px solid #069;
+					  font-weight:bold;
+			}
+			
+input.operation				{ color: #f00;font-weigh:600;background-color:#fcc; }
+input.punctuation			{ color: #996;font-weigh:900;background-color:#ffc; }
+input.sign						{ color: #396;font-weigh:900;background-color:#cfc; }
+input.aids						{ color: #369;font-weigh:900;background-color:#ccf; }
+
+.calculate			{
+				font-size:22px;padding:4px;color:#ccf;box-shadow:#666 -8px -3px; -webkit-box-shadow:#666 -8px -3px; 
+						-webkit-border-radius:6px; 
+					  -ms-border-radius:6px;
+					  -mox-border-radius:6px;
+					  -o-border-radius:6px;
+					  border-radius:6px;
+					  border:1px solid #069;
+					  text-align: right;
+					  padding:4px 12px;
+					  margin:12px;
+					  width:226px;
+					  background-color: #eff;
+					  overflow: hidden;
+					  max-width: 226px;
+			}
+.outside		{
+				background-color:black;border-radio:10px 10px 10px solid #345678;padding:4px;
+				width:298px; height:380px;box-shadow:#ddd 8px 6px; -webkit-box-shadow:#ddd 8px 6px; 
+				margin:auto;float:none;
+				-webkit-border-radius:6px; 
+					  -ms-border-radius:6px;
+					  -mox-border-radius:6px;
+					  -o-border-radius:6px;
+					  border-radius:6px;
+			}
+			
+/*.label		{ padding:18px 3px;margin-bottom:22px; 
+											-webkit-border-radius:12px; 
+					  -ms-border-radius:12px;
+					  -mox-border-radius:12px;
+					  -o-border-radius:12px;
+					  border-radius:12px;
+					  border:1px solid #069;
+}*/
