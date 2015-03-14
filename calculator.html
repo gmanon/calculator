@@ -1,20 +1,29 @@
 <!DOCTYPE html>
-
+<!-- Author: Guillermina Gonjon (GManon)
+     Date: March 14th, 2015
+     Contact: gmanonwebpresence@gmail.com
+     License: GNU ("Freely available to any use with no garantee of any kind.")
+ -->
 <html>
 <head>
 <meta http-equiv="content-type" type="text/html;charset=utf-8"/>
 
 <title>Calculator</title>
-<!--<script type="text/javascript" sr c="jscript/ jquery-1.11.0.min.js">< /script>-->
+
+<!-- Stylesheet -->
 <link href="css/index.css" title="stylesheet" type="text/css" rel="stylesheet" rev="stylesheet" media="all" lang="english">
 </head>
 <body>
 	<div class="outside">
+	<!-- Form that contains the calculator and is also the base of the entire script -->
 	<form method="get" name="calculated" action="#">
 	<div class="calculator" id="calculator-frame"><span class="label">
+	
+	<!-- Output window -->
 	<input type="text" onBlurd="changeText()" maxlength="12" disable class="calculate" id="myresult" name="result" size="12"/></span>
 		<hr/>
 		
+	<!-- Calculator buttons -->
 	<input id='0' name='boton0' type='button' onClick='changeText(0)' class='numberse' value='0'/>
 	<input id='1' name='boton1' type='button' onClick='changeText(1)' class='numberse' value='1'/>	
 	<input id='2' name='boton2' type='button' onClick='changeText(2)' class='numberse' value='2'/>
@@ -25,6 +34,8 @@
 	<input id='7' name='boton7' type='button' onClick='changeText(7)' class='numberse' value='7'/>
 	<input id='8' name='boton8' type='button' onClick='changeText(8)' class='numberse' value='8'/>
 	<input id='9' name='boton9' type='button' onClick='changeText(9)' class='numberse' value='9'/>
+	
+	<!-- Signs start here -->
 	<input id='plus' name='plus' type='button' onClick='changeText("+")' class='sign' value='+'/>
 	<input id='minus' name='minus' type='button' onClick='changeText("-")' class='sign' value='-'/>
 	<input id='times' name='multiply' type='button' onClick='changeText("*")' class='sign' value='x'/>
@@ -35,10 +46,14 @@
 	<input id='period' name='period' type='button' onClick='changeText(".")' class='numberse' value='&period;'/>
 	<input id='clear' name='clear' type='button' onClick='changeText("CE")' class='operation' value='CE'/>
 	<input id='equal' name='equal' type='button' onClick='changeText("&equals;")' class='operation' value='&equals;'/>
+	
+	<!-- Non-standard bottons to print, seek for help and see the date -->
 <input id='help' name='help' type='button' onClick='showHelp("?")' class='aids' value='?'/>
 <input id='print' name='print' type='button' onClick='showHelp("print")' class='aids' value='&#9113;'/>
 <input id='time' name='time' type='button' onClick='showHelp("time")' class='aids' value='&#9200;'/>
 	<div>
+	
+	<!-- Script functions -->
 	<script language="javaScript" src="js/calculator.js"></script>
 
 	</div>
