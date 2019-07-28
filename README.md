@@ -1,9 +1,12 @@
-# calculator
-Simple Javascript calculator
+<!DOCTYPE html>
+<body>
+  <h1>calculator</h1>
+  <h3>Simple Javascript calculator</h3>
 
-To use the calculator, simply open the calculator.html file and click on the numbers 
-and mathematical signs and the iqual sign for the response.
+<p>To use the calculator, simply open the calculator.html file and click on the numbers 
+and mathematical signs and the iqual sign for the response.</p>
 
-To work, it needs the CSS and the JS folder; Both folders contain a single file.
+<p>To work, it needs the CSS and the JS folder; Both folders contain a single file.</p>
+<img src="https://raw.githubusercontent.com/gmanon/calculator/master/calculator.png" alt="simple calculator">
 
-So far, it has been tested on Firefox and IE 11 on Windows 7.
+<p>So far, it has been tested on Firefox and IE 11 on Windows 7.</p>
