@@ -5,6 +5,12 @@
 
 <p>To use the calculator, simply open the calculator.html file and click on the numbers 
 and mathematical signs and the iqual sign for the response.</p>
+<p>The calculator also counts with other interfaces: </p>
+  <ul>
+    <li>One for temperature</li>
+    <li>One for dates</li>
+    <li>And finaly another one for Mathematical formulas</li>
+  </ul>
 
 <p>To work, it needs the CSS and the JS folder; Both folders contain a single file.</p>
 <img src="https://raw.githubusercontent.com/gmanon/calculator/master/calculator.png" alt="simple calculator">
